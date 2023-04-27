@@ -1,4 +1,8 @@
 import React from "react";
+import Button from '@mui/material/Button';
+
+
+
 
 function Formulario() {
   const inputStyle = {
@@ -37,15 +41,16 @@ function Formulario() {
         
         }}
       />
-      <textarea
+      <input
         placeholder="Consulta"
         style={{
           ...inputStyle,
         }}
-      ></textarea>
-      <button type="submit" style={{fontSize: "1em", width:"31.1vw", height:"5vh",   }}>
-        Enviar
-      </button>
+      ></input>
+      <Button variant="outlined" size="small" style={{color:"black", border:"solid 1px black ",fontSize: "1em", width:"31.1vw", height:"5vh" }}>
+          Enviar
+        </Button>
+
     </form>
   );
 }
