@@ -3,11 +3,12 @@ import React from "react";
 function Formulario() {
   const inputStyle = {
     border: "none",
-    borderBottom: "2px solid black",
+    borderBottom: "1px solid black",
     marginBottom: "1em",
     width: "30.35vw",
     padding: "0.5em",
     fontSize: "1em",
+    
   };
 
   return (
@@ -18,9 +19,7 @@ function Formulario() {
         type="text"
         placeholder="Nombre"
         style={{
-          ...inputStyle,
-          borderBottomLeftRadius: 0,
-          borderBottomRightRadius: 0,
+          ...inputStyle
         }}
       />
       <input
@@ -28,8 +27,6 @@ function Formulario() {
         placeholder="Apellido"
         style={{
           ...inputStyle,
-          borderBottomLeftRadius: 0,
-          borderBottomRightRadius: 0,
         }}
       />
       <input
@@ -37,20 +34,16 @@ function Formulario() {
         placeholder="Email"
         style={{
           ...inputStyle,
-          borderBottomLeftRadius: 0,
-          borderBottomRightRadius: 0,
+        
         }}
       />
       <textarea
         placeholder="Consulta"
         style={{
           ...inputStyle,
-          borderBottomLeftRadius: "0.3em",
-          borderBottomRightRadius: "0.3em",
-          width: "80%",
         }}
       ></textarea>
-      <button type="submit" style={{ fontSize: "1em", padding: "0.5em 1em" }}>
+      <button type="submit" style={{fontSize: "1em", width:"31.1vw", height:"5vh",   }}>
         Enviar
       </button>
     </form>
