@@ -1,5 +1,6 @@
 import React from "react";
-import Button from '@mui/material/Button';
+import Button from '../../commons/buttons/Button';
+
 
 
 
@@ -17,7 +18,7 @@ function Formulario() {
 
   return (
     <form
-      style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+      style={{ display: "flex", flexDirection: "column", alignItems: "center",}}
     >
       <input
         type="text"
@@ -47,9 +48,7 @@ function Formulario() {
           ...inputStyle,
         }}
       ></input>
-      <Button variant="outlined" size="small" style={{color:"black", border:"solid 1px black ",fontSize: "1em", width:"31.1vw", height:"5vh" }}>
-          Enviar
-        </Button>
+       <Button tipo='buttonForm' text='Enviar'/>
 
     </form>
   );
