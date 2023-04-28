@@ -1,0 +1,26 @@
+.primary{
+    padding: 1rem 2.5rem;
+    background-color: #2D2641;
+    color: white;
+}
+
+.primary:hover{
+    background-color: white;
+    color: #2D2641;
+    border: 1.5px solid #2D2641;
+    transition: 0.3s;
+}
+
+.secondary{
+    padding: 1rem;
+    background: none;
+    color: white;
+    border: 1.5px solid white;
+}
+
+.secondary:hover{
+    background-color: white;
+    color: #2D2641;
+    border: 1.5px solid white;
+    transition: 0.3s;
+}

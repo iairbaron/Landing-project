@@ -17,6 +17,7 @@ body {
 h1,h2,h3{
   font-family: 'DM Serif Display', serif;
   color: #2C2830;
+  font-weight: 400;
 }
 
 h1{
@@ -25,4 +26,8 @@ h1{
 
 p{
   color: #837D88
+}
+
+section{
+  padding: 5rem 0;
 }

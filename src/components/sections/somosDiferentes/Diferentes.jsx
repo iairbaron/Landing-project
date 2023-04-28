@@ -6,14 +6,14 @@ import icono3 from '../../../assets/sections/somosDiferentes/card3.png'
 
 const Diferentes = () => {
   return (
-    <div>
+    <section style={{margin: '0 9rem'}}>
     <h1 style={{padding: '2rem'}}>Somos Diferentes</h1>
     <div style={{display:'flex',padding:'2rem', justifyContent:'space-between'}}>
       <DiferentesCard icono={icono1} name='Interaccion' text='En un entorno social donde cada vez es menos frecuente, nos apoyamos en la transparencia de nuestras ejecuciones.'/>
       <DiferentesCard icono={icono2} name='Transparencia' text='En un entorno social donde cada vez es menos frecuente, nos apoyamos en la transparencia de nuestras ejecuciones.'/>
       <DiferentesCard icono={icono3} name='Integral' text='En un entorno social donde cada vez es menos frecuente, nos apoyamos en la transparencia de nuestras ejecuciones.'/>
     </div>
-    </div>
+    </section>
       
   )
 }
