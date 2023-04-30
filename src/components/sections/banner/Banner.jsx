@@ -4,7 +4,7 @@ import Button from '../../commons/buttons/Button';
 
 const Banner = () => {
   return (
-    <section style={{width: '100%', height: '60vh', backgroundColor: '#2D2641',display:'flex', alignItems: 'center'}}>
+    <section style={{width: '100%', height: '60vh', backgroundColor: '#2D2641',display:'flex', alignItems: 'center', margin: '0 0 3rem 0  '}}>
     <div style={{margin: '0 9rem'}}>
         <div style={{width:'40%',display:'flex',flexDirection:'column', gap:'2rem'}}>
             <h1 style={{color:'white'}}>Transformá tu negocio</h1>
