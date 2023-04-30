@@ -18,9 +18,28 @@
     border: 1.5px solid white;
 }
 
+
+
 .secondary:hover{
     background-color: white;
     color: #2D2641;
+    border: 1.5px solid white;
+    transition: 0.3s;
+}
+
+
+.buttonForm{
+    border: 0.5px black solid;
+    padding: 1rem 2.5rem;
+    background-color: white;
+    color: black;
+    width: 30.51vw;
+    margin-bottom: 30px;
+}
+
+.buttonForm:hover{
+      background-color:#2D2641 ;
+    color: white;
     border: 1.5px solid white;
     transition: 0.3s;
 }
