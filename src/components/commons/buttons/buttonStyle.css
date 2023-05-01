@@ -35,12 +35,12 @@
     padding: 1rem 2.5rem;
     background-color: white;
     color: black;
-    width: 30.51vw;
+    width: 30.40vw;
     margin-bottom: 30px;
 }
 
 .buttonForm:hover{
-      background-color:#2D2641 ;
+    background-color:#2D2641 ;
     color: white;
     border: 1.5px solid white;
     transition: 0.3s;
