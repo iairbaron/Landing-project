@@ -9,11 +9,12 @@
     color: #2D2641;
     border: 1.5px solid #2D2641;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .secondary{
     padding: 1rem;
-    background: none;
+    background: transparent;
     color: white;
     border: 1.5px solid white;
 }
@@ -25,6 +26,7 @@
     color: #2D2641;
     border: 1.5px solid white;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 
