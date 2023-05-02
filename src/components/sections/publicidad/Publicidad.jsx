@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../../commons/buttons/Button'
-import imagenFondo from '../../../assets/sections/publicidad/imagenFondo.png'
+import imagenFondo from '../../../assets/sections/publicidad/imagenfondo.png'
 
 const Publicidad = () => {
   return (

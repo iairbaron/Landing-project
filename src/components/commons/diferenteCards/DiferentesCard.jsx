@@ -1,5 +1,5 @@
 import React from 'react';
-import cardStyle from './diferentes-card.css';
+import  './diferentes-card.css';
 
 const DiferentesCard = (props) => {
   return (
