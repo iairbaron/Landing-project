@@ -18,7 +18,7 @@ function Formulario() {
 
   return (
     <form
-      style={{ display: "flex", flexDirection: "column", alignItems: "center",}}
+      style={{ display: "flex", flexDirection: "column",justifyContent:"end", alignItems: "center"}}
     >
       <input
         type="text"
