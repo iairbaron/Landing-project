@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Pagination } from "swiper";
+import { FreeMode, Pagination, Autoplay } from "swiper";
 import linea from '../../../assets/sections/somosDiferentes/linea.png'
 import client1 from '../../../assets/sections/clientes/client1.png'
 import client2 from '../../../assets/sections/clientes/client2.png'
@@ -29,7 +29,10 @@ const Diferentes = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        autoplay={{
+          delay: 3000,
+        }}
+        modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide><img src={client1} alt="" /></SwiperSlide>
